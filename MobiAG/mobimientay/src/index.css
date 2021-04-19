@@ -1,0 +1,44 @@
+@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+.cursive {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.home-name {
+  font-size: 150px;
+}
+
+.footer {
+  border-top: thick solid #e5e5e5;
+  background-color: #e5e5e5;
+  color: #666666;
+  padding: 15px 30px;
+  height: auto;
+  font-size: 13px;
+
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.f_row {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 5px 5px;
+}
+
+.f_row img {
+  margin-top: 70px;
+  float: right;
+}
